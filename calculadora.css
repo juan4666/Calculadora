@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://fondosmil.com/fondo/32027.jpg);
+}
+
+.lol {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.lol h1 {
+    color: #00F6CD;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.lol input[type="text"],
+.lol input[type="text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #F6AB00;
+    padding: 14px 50px;
+    width: 200px;
+    outline: none;
+    color: silver;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.lol input[type="text"]:focus,
+.lol input[type="text"]:focus {
+    width: 280px;
+    border-color: #00F6CD;
+}
+
+.lol input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #F6AB00;
+    padding: 14px 40px;
+    outline: none;
+    color: silver;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.lol input[type="submit"]:hover {
+    background: #00F6CD;
+    color: black;
+}
+
+.lol output[type="number"] {
+    font-size: 40px;
+    color: #00F6CD;
+}
+
+.opciones {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #F6AB00;
+    padding: 14px 40px;
+    outline: none;
+    color: silver;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
